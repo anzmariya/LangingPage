@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <!-- font awsom cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+</head>
+<body >
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-4"><img class="pos" src="https://media1.giphy.com/media/26gJALSQePoSDW5Hy/200w.webp?cid=ecf05e475mvd9ncv3ge0l7apq9d69yl7on6o01h9xpycq389&ep=v1_gifs_search&rid=200w.webp&ct=g" alt=""></div>
+            
+            <div class="col-md-4 border border-2 rounded pos mt-5 bgimg">
+                
+                <div>
+                    <form>
+                        <h3 class="text-center">ACCOUNT LOGIN</h3><br>
+                       
+                        <input id="loguname" type="text" class="w-100" placeholder="Your Name"><br><br>
+      <!-- pass -->     <input id="logpass" type="password" class="w-100" placeholder="Password"><br><br>
+                        <div class="d-flex justify-content-between">
+                            <div><input type="checkbox" name="" id="">Remember Me</div>
+                            <a href="">Forgot password?</a>
+                        </div>
+                        
+                        
+                        <button type="button" onclick="obj.login()" class="border-0 text-light w-100 gradient mt-4">LOG IN</button><br>
+                        <p>Are you a new user? Click here to <a href="./registration.html">Register</a></p>
+                        
+
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img class="pos" src="https://media4.giphy.com/media/26gJyRL4GxVMfFXUs/200w.webp?cid=ecf05e47yzcgfosz7e3x4bpis2trejjrvtixcatpzdon7a4f&ep=v1_gifs_search&rid=200w.webp&ct=g" alt="">
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="./logic.js"></script>
+</html>

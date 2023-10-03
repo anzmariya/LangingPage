@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="registration.css">
+    <!-- font awsom cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+</head>
+<body class="colo">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4 border border-2 rounded pos mt-5 bgimg">
+                
+                <div>
+                    <form>
+          <!-- uname --><h3 class="text-center">CREATE ACCOUNT</h3><br> 
+                        <input id="uname" type="text" class="w-100" placeholder="Your Name"><br><br>
+                        <input type="email" class="w-100" placeholder="Your Email"><br><br>
+      <!-- pass -->     <input id="pass" type="password" class="w-100" placeholder="Password"><br><br>
+                        <input id="" type="password" class="w-100" placeholder="Re-enter Password"><br><br>
+                        <div class="d-flex">
+                            <input type="checkbox" name="" id="">
+                            <p>I agree all statements in <u>Terms of service</u></p><br>
+                        </div>
+                        <button type="button" class="border-0 text-light w-100 gradient" onclick="obj.register()">SIGN UP</button>
+                        <br><br>
+                        Have already an account ? <a href="./login.html">Login here</a>
+
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+    </div>
+    
+</body>
+<script src="./logic.js"></script>
+</html>

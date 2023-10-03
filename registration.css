@@ -1,0 +1,18 @@
+.colo
+{
+    background-image: url("https://images.pexels.com/photos/1595391/pexels-photo-1595391.jpeg?cs=srgb&dl=pexels-fox-1595391.jpg&fm=jpg");
+    background-size: cover;
+}
+.pos{
+    
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: white;
+}
+.gradient{
+    background-image: linear-gradient(to bottom left , rgb(97, 97, 238) , rgb(92, 177, 92));
+}
